@@ -1,12 +1,16 @@
-.card-body {
+.movie_card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-@media (max-width:992px)
-{
-  .for_pc{
+@media (max-width:992px) {
+  .for_pc {
+    display:none;
+  }
+}
+@media (min-width:992px) {
+  .for_mobile {
     display:none;
   }
 }
