@@ -16,21 +16,38 @@
 }
 .hvr:hover {
   background-color:rgba(191, 191, 191, 0.2);
+
 }
 .hvr {
   border-radius: 5px;
-  margin
 }
+#explain{ 
+  position: absolute; opacity: 0; 
+  width:100%;
+  height: 10%;
+  display:flex;
+  justify-content: center;
+  font-size: 3rem;
+  color:white;
+  font-weight: 700;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  background:linear-gradient(to bottom, rgba(0, 0, 0, 0.453),rgba(0,0,0,0))
+  } 
+  
+  .text_photo:hover #explain{ 
+  opacity: 1;
+  z-index: 1;
+  transform: scale(1.03);
+  }
+  .text_photo:hover #hvr-img{
+  opacity: 1;
+  z-index: 1;
+  transform: scale(1.03);
+  }
 .log-in {
   margin-top: 1.1px;
   padding-left: 1px;
 }
 .menu-margin {
   margin-left: 13px;
-}
-.hvr-img:hover {
-  transform: scale(1.03);
-}
-.make_review_btn {
-
 }
